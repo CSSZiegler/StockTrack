@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pxsObject>
+    <appSmsCode></appSmsCode>
+    <plainxmlservice>
+        <authenticationMode>basic</authenticationMode>
+        <cacheduration></cacheduration>
+        <cacheable>false</cacheable>
+        <dataprovider></dataprovider>
+        <dcResponse/>
+        <encryptPwd>true</encryptPwd>
+        <escapeXML>false</escapeXML>
+        <group>StockTrack</group>
+        <httpmethod>GET</httpmethod>
+        <id>getStock</id>
+        <ignoreProxy>false</ignoreProxy>
+        <intemplate></intemplate>
+        <ntlmDomain></ntlmDomain>
+        <ntlmHost></ntlmHost>
+        <outtemplate>&lt;xml_api_reply version="1"&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="AAPL"/&gt;
+      &lt;pretty_symbol data="AAPL"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=AAPL"/&gt;
+      &lt;company data="Apple Inc."/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="492.11"/&gt;
+      &lt;high data="493.83"/&gt;
+      &lt;low data="486.00"/&gt;
+      &lt;volume data="3340941"/&gt;
+      &lt;avg_volume data="12389"/&gt;
+      &lt;market_cap data="447053.37"/&gt;
+      &lt;open data="486.00"/&gt;
+      &lt;y_close data="488.59"/&gt;
+      &lt;change data="+3.52"/&gt;
+      &lt;perc_change data="0.72"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="22 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142450"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=AAPL"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:AAPL&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="486.00"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="ADSK"/&gt;
+      &lt;pretty_symbol data="ADSK"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=ADSK"/&gt;
+      &lt;company data="Autodesk, Inc."/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="37.04"/&gt;
+      &lt;high data="37.21"/&gt;
+      &lt;low data="36.83"/&gt;
+      &lt;volume data="276669"/&gt;
+      &lt;avg_volume data="3109"/&gt;
+      &lt;market_cap data="8241.40"/&gt;
+      &lt;open data="36.95"/&gt;
+      &lt;y_close data="36.99"/&gt;
+      &lt;change data="+0.05"/&gt;
+      &lt;perc_change data="0.14"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="17 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142455"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=ADSK"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:ADSK&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="36.89"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="AMD"/&gt;
+      &lt;pretty_symbol data="AMD"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=AMD"/&gt;
+      &lt;company data="Advanced Micro Devices, Inc."/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="3.47"/&gt;
+      &lt;high data="3.48"/&gt;
+      &lt;low data="3.33"/&gt;
+      &lt;volume data="5457262"/&gt;
+      &lt;avg_volume data="31562"/&gt;
+      &lt;market_cap data="2502.05"/&gt;
+      &lt;open data="3.35"/&gt;
+      &lt;y_close data="3.39"/&gt;
+      &lt;change data="+0.08"/&gt;
+      &lt;perc_change data="2.51"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="36 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142436"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=AMD"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:AMD&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="3.34"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133001"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="BBRY"/&gt;
+      &lt;pretty_symbol data="BBRY"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=BBRY"/&gt;
+      &lt;company data="BlackBerry Ltd"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="10.51"/&gt;
+      &lt;high data="10.56"/&gt;
+      &lt;low data="9.47"/&gt;
+      &lt;volume data="7353298"/&gt;
+      &lt;avg_volume data="24748"/&gt;
+      &lt;market_cap data="5509.44"/&gt;
+      &lt;open data="10.00"/&gt;
+      &lt;y_close data="10.03"/&gt;
+      &lt;change data="+0.48"/&gt;
+      &lt;perc_change data="4.80"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="1 minute ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142336"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=BBRY"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:BBRY&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="9.83"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="CSCO"/&gt;
+      &lt;pretty_symbol data="CSCO"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=CSCO"/&gt;
+      &lt;company data="Cisco Systems, Inc."/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="23.41"/&gt;
+      &lt;high data="23.58"/&gt;
+      &lt;low data="23.41"/&gt;
+      &lt;volume data="4899866"/&gt;
+      &lt;avg_volume data="36240"/&gt;
+      &lt;market_cap data="124821.50"/&gt;
+      &lt;open data="23.55"/&gt;
+      &lt;y_close data="23.49"/&gt;
+      &lt;change data="-0.08"/&gt;
+      &lt;perc_change data="-0.32"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="3 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142509"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=CSCO"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:CSCO&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="23.50"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="ELNK"/&gt;
+      &lt;pretty_symbol data="ELNK"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=ELNK"/&gt;
+      &lt;company data="EarthLink, Inc."/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="4.97"/&gt;
+      &lt;high data="4.97"/&gt;
+      &lt;low data="4.86"/&gt;
+      &lt;volume data="93943"/&gt;
+      &lt;avg_volume data="1129"/&gt;
+      &lt;market_cap data="511.90"/&gt;
+      &lt;open data="4.90"/&gt;
+      &lt;y_close data="4.95"/&gt;
+      &lt;change data="+0.02"/&gt;
+      &lt;perc_change data="0.40"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="15 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142457"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=ELNK"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:ELNK&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data=""/&gt;
+      &lt;isld_trade_date_utc data=""/&gt;
+      &lt;isld_trade_time_utc data=""/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="ELOQ"/&gt;
+      &lt;pretty_symbol data="ELOQ"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=ELOQ"/&gt;
+      &lt;company data="Eloqua Inc"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="0.00"/&gt;
+      &lt;high data=""/&gt;
+      &lt;low data=""/&gt;
+      &lt;volume data="0"/&gt;
+      &lt;avg_volume data=""/&gt;
+      &lt;market_cap data=""/&gt;
+      &lt;open data=""/&gt;
+      &lt;y_close data=""/&gt;
+      &lt;change data=""/&gt;
+      &lt;perc_change data=""/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="31 Dec 1969"/&gt;
+      &lt;trade_date_utc data=""/&gt;
+      &lt;trade_time_utc data=""/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=ELOQ"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:ELOQ&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data=""/&gt;
+      &lt;isld_trade_date_utc data=""/&gt;
+      &lt;isld_trade_time_utc data=""/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="ET"/&gt;
+      &lt;pretty_symbol data="ET"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=ET"/&gt;
+      &lt;company data="ExactTarget Inc"/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="0.00"/&gt;
+      &lt;high data=""/&gt;
+      &lt;low data=""/&gt;
+      &lt;volume data="0"/&gt;
+      &lt;avg_volume data=""/&gt;
+      &lt;market_cap data=""/&gt;
+      &lt;open data=""/&gt;
+      &lt;y_close data=""/&gt;
+      &lt;change data=""/&gt;
+      &lt;perc_change data=""/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="31 Dec 1969"/&gt;
+      &lt;trade_date_utc data=""/&gt;
+      &lt;trade_time_utc data=""/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=ET"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:ET&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data=""/&gt;
+      &lt;isld_trade_date_utc data=""/&gt;
+      &lt;isld_trade_time_utc data=""/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="FB"/&gt;
+      &lt;pretty_symbol data="FB"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=FB"/&gt;
+      &lt;company data="Facebook Inc"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="40.04"/&gt;
+      &lt;high data="40.32"/&gt;
+      &lt;low data="39.88"/&gt;
+      &lt;volume data="11383029"/&gt;
+      &lt;avg_volume data="78254"/&gt;
+      &lt;market_cap data="97510.21"/&gt;
+      &lt;open data="39.96"/&gt;
+      &lt;y_close data="39.64"/&gt;
+      &lt;change data="+0.40"/&gt;
+      &lt;perc_change data="1.01"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="5 minutes ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142000"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=FB"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:FB&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="39.97"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="GOOG"/&gt;
+      &lt;pretty_symbol data="GOOG"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=GOOG"/&gt;
+      &lt;company data="Google Inc"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="849.86"/&gt;
+      &lt;high data="855.41"/&gt;
+      &lt;low data="847.77"/&gt;
+      &lt;volume data="330546"/&gt;
+      &lt;avg_volume data="1966"/&gt;
+      &lt;market_cap data="283191.32"/&gt;
+      &lt;open data="850.25"/&gt;
+      &lt;y_close data="850.15"/&gt;
+      &lt;change data="-0.29"/&gt;
+      &lt;perc_change data="-0.03"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="1 minute ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142328"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=GOOG"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:GOOG&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="849.00"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="HPQ"/&gt;
+      &lt;pretty_symbol data="HPQ"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=HPQ"/&gt;
+      &lt;company data="Hewlett-Packard Company"/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="22.25"/&gt;
+      &lt;high data="22.26"/&gt;
+      &lt;low data="22.02"/&gt;
+      &lt;volume data="1815824"/&gt;
+      &lt;avg_volume data="15845"/&gt;
+      &lt;market_cap data="42910.27"/&gt;
+      &lt;open data="22.03"/&gt;
+      &lt;y_close data="21.99"/&gt;
+      &lt;change data="+0.26"/&gt;
+      &lt;perc_change data="1.18"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="11 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142501"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=HPQ"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:HPQ&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="22.02"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="IBM"/&gt;
+      &lt;pretty_symbol data="IBM"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=IBM"/&gt;
+      &lt;company data="International Business Machines Corp."/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="182.10"/&gt;
+      &lt;high data="184.50"/&gt;
+      &lt;low data="181.72"/&gt;
+      &lt;volume data="430980"/&gt;
+      &lt;avg_volume data="3632"/&gt;
+      &lt;market_cap data="199477.04"/&gt;
+      &lt;open data="182.68"/&gt;
+      &lt;y_close data="182.74"/&gt;
+      &lt;change data="-0.64"/&gt;
+      &lt;perc_change data="-0.35"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="5 minutes ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="141959"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=IBM"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:IBM&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="182.66"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="INTC"/&gt;
+      &lt;pretty_symbol data="INTC"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=INTC"/&gt;
+      &lt;company data="Intel Corporation"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="22.38"/&gt;
+      &lt;high data="22.41"/&gt;
+      &lt;low data="22.13"/&gt;
+      &lt;volume data="3809866"/&gt;
+      &lt;avg_volume data="39717"/&gt;
+      &lt;market_cap data="111517.09"/&gt;
+      &lt;open data="22.20"/&gt;
+      &lt;y_close data="22.19"/&gt;
+      &lt;change data="+0.19"/&gt;
+      &lt;perc_change data="0.87"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="1 minute ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142341"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=INTC"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:INTC&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="22.16"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="MSFT"/&gt;
+      &lt;pretty_symbol data="MSFT"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=MSFT"/&gt;
+      &lt;company data="Microsoft Corporation"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="33.33"/&gt;
+      &lt;high data="33.60"/&gt;
+      &lt;low data="33.24"/&gt;
+      &lt;volume data="7207101"/&gt;
+      &lt;avg_volume data="55745"/&gt;
+      &lt;market_cap data="277595.80"/&gt;
+      &lt;open data="33.39"/&gt;
+      &lt;y_close data="33.26"/&gt;
+      &lt;change data="+0.07"/&gt;
+      &lt;perc_change data="0.20"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="1 minute ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142355"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=MSFT"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:MSFT&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="33.33"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="NVDA"/&gt;
+      &lt;pretty_symbol data="NVDA"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=NVDA"/&gt;
+      &lt;company data="NVIDIA Corporation"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="14.93"/&gt;
+      &lt;high data="14.94"/&gt;
+      &lt;low data="14.80"/&gt;
+      &lt;volume data="659783"/&gt;
+      &lt;avg_volume data="8238"/&gt;
+      &lt;market_cap data="8638.46"/&gt;
+      &lt;open data="14.83"/&gt;
+      &lt;y_close data="14.81"/&gt;
+      &lt;change data="+0.12"/&gt;
+      &lt;perc_change data="0.84"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="35 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142437"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=NVDA"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:NVDA&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="14.84"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="ORCL"/&gt;
+      &lt;pretty_symbol data="ORCL"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=ORCL"/&gt;
+      &lt;company data="Oracle Corporation"/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="31.83"/&gt;
+      &lt;high data="31.89"/&gt;
+      &lt;low data="31.75"/&gt;
+      &lt;volume data="1477464"/&gt;
+      &lt;avg_volume data="17801"/&gt;
+      &lt;market_cap data="149940.24"/&gt;
+      &lt;open data="31.79"/&gt;
+      &lt;y_close data="31.78"/&gt;
+      &lt;change data="+0.05"/&gt;
+      &lt;perc_change data="0.16"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="34 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142438"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=ORCL"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:ORCL&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="31.78"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="TCX"/&gt;
+      &lt;pretty_symbol data="TCX"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=TCX"/&gt;
+      &lt;company data="Tucows Inc. (USA)"/&gt;
+      &lt;exchange data="NYSEMKT"/&gt;
+      &lt;exchange_timezone data=""/&gt;
+      &lt;exchange_utc_offset data=""/&gt;
+      &lt;exchange_closing data=""/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="2.46"/&gt;
+      &lt;high data="2.48"/&gt;
+      &lt;low data="2.39"/&gt;
+      &lt;volume data="19894"/&gt;
+      &lt;avg_volume data="149"/&gt;
+      &lt;market_cap data="106.55"/&gt;
+      &lt;open data="2.39"/&gt;
+      &lt;y_close data="2.41"/&gt;
+      &lt;change data="+0.05"/&gt;
+      &lt;perc_change data="2.07"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="7 minutes ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="141801"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=TCX"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSEMKT:TCX&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data=""/&gt;
+      &lt;isld_trade_date_utc data=""/&gt;
+      &lt;isld_trade_time_utc data=""/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="VRSN"/&gt;
+      &lt;pretty_symbol data="VRSN"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=VRSN"/&gt;
+      &lt;company data="Verisign, Inc."/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="48.85"/&gt;
+      &lt;high data="49.10"/&gt;
+      &lt;low data="48.74"/&gt;
+      &lt;volume data="160244"/&gt;
+      &lt;avg_volume data="1385"/&gt;
+      &lt;market_cap data="7014.64"/&gt;
+      &lt;open data="48.77"/&gt;
+      &lt;y_close data="48.75"/&gt;
+      &lt;change data="+0.10"/&gt;
+      &lt;perc_change data="0.22"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="1 second ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142511"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=VRSN"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:VRSN&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="48.82"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="133000"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="WDC"/&gt;
+      &lt;pretty_symbol data="WDC"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=WDC"/&gt;
+      &lt;company data="Western Digital Corp"/&gt;
+      &lt;exchange data="Nasdaq"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="62.31"/&gt;
+      &lt;high data="62.36"/&gt;
+      &lt;low data="61.39"/&gt;
+      &lt;volume data="147102"/&gt;
+      &lt;avg_volume data="2269"/&gt;
+      &lt;market_cap data="14767.22"/&gt;
+      &lt;open data="61.65"/&gt;
+      &lt;y_close data="61.44"/&gt;
+      &lt;change data="+0.87"/&gt;
+      &lt;perc_change data="1.42"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="11 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142501"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=WDC"/&gt;
+      &lt;chart_url data="/finance/chart?q=NASDAQ:WDC&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="61.71"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="132955"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+   &lt;finance mobile_row="0" mobile_zipped="1" module_id="0" row="0" section="0" tab_id="0"&gt;
+      &lt;symbol data="XRX"/&gt;
+      &lt;pretty_symbol data="XRX"/&gt;
+      &lt;symbol_lookup_url data="/finance?client=ig&amp;amp;q=XRX"/&gt;
+      &lt;company data="Xerox Corporation"/&gt;
+      &lt;exchange data="NYSE"/&gt;
+      &lt;exchange_timezone data="ET"/&gt;
+      &lt;exchange_utc_offset data="+05:00"/&gt;
+      &lt;exchange_closing data="960"/&gt;
+      &lt;divisor data="2"/&gt;
+      &lt;currency data="USD"/&gt;
+      &lt;last data="9.74"/&gt;
+      &lt;high data="9.76"/&gt;
+      &lt;low data="9.65"/&gt;
+      &lt;volume data="1911441"/&gt;
+      &lt;avg_volume data="11119"/&gt;
+      &lt;market_cap data="12004.86"/&gt;
+      &lt;open data="9.65"/&gt;
+      &lt;y_close data="9.67"/&gt;
+      &lt;change data="+0.07"/&gt;
+      &lt;perc_change data="0.72"/&gt;
+      &lt;delay data="0"/&gt;
+      &lt;trade_timestamp data="26 seconds ago"/&gt;
+      &lt;trade_date_utc data="20130828"/&gt;
+      &lt;trade_time_utc data="142446"/&gt;
+      &lt;current_date_utc data="20130828"/&gt;
+      &lt;current_time_utc data="142512"/&gt;
+      &lt;symbol_url data="/finance?client=ig&amp;amp;q=XRX"/&gt;
+      &lt;chart_url data="/finance/chart?q=NYSE:XRX&amp;amp;tlf=12"/&gt;
+      &lt;disclaimer_url data="/help/stock_disclaimer.html"/&gt;
+      &lt;ecn_url data=""/&gt;
+      &lt;isld_last data="9.63"/&gt;
+      &lt;isld_trade_date_utc data="20130828"/&gt;
+      &lt;isld_trade_time_utc data="130537"/&gt;
+      &lt;brut_last data=""/&gt;
+      &lt;brut_trade_date_utc data=""/&gt;
+      &lt;brut_trade_time_utc data=""/&gt;
+      &lt;daylight_savings data="true"/&gt;
+   &lt;/finance&gt;
+&lt;/xml_api_reply&gt;
+</outtemplate>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>stocks</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//xml_api_reply /finance</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value></value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>company</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//company/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>symbol</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//symbol/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>price</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//y_close /@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>imgUrl</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//chart_url/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>currency</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//currency/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>exchange</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//exchange/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>high</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//high/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>low</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//low/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>last</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//last/@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <outparam>
+            <category></category>
+            <datatype>string</datatype>
+            <defaultvalue></defaultvalue>
+            <description></description>
+            <encode>true</encode>
+            <format>None</format>
+            <formatvalue></formatvalue>
+            <id>url</id>
+            <invalue></invalue>
+            <name></name>
+            <order></order>
+            <passNull>false</passNull>
+            <recordid></recordid>
+            <smsname></smsname>
+            <source>//symbol_url /@data</source>
+            <srcformatvalue></srcformatvalue>
+            <target></target>
+            <targetdatatype></targetdatatype>
+            <testvalue></testvalue>
+            <value>stocks</value>
+        </outparam>
+        <password></password>
+        <postclassname></postclassname>
+        <preclassname></preclassname>
+        <proxyname></proxyname>
+        <proxyport></proxyport>
+        <proxypwd></proxypwd>
+        <proxyuserid></proxyuserid>
+        <responseencoding>UTF-8</responseencoding>
+        <smscode></smscode>
+        <smsenabled>false</smsenabled>
+        <timeout></timeout>
+        <url>http://www.google.com/ig/api?stock=AAPL&amp;stock=GOOG&amp;stock=MSFT&amp;stock=CSCO&amp;stock=INTC&amp;stock=HPQ&amp;stock=IBM&amp;stock=FB&amp;stock=NVDA&amp;stock=AMD&amp;stock=TCX&amp;stock=BBRY&amp;stock=ORCL&amp;stock=ELNK&amp;stock=XRX&amp;stock=ADSK&amp;stock=WDC&amp;stock=ELOQ&amp;stock=ET&amp;stock=VRSN</url>
+        <urlprovider></urlprovider>
+        <userid></userid>
+    </plainxmlservice>
+</pxsObject>

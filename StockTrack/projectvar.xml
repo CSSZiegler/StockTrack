@@ -1,0 +1,5 @@
+<globals>
+    <dataset id="stockResultTable" datatype="collection" value="">
+    </dataset>
+    <attributes datatype="string" value="" name="url"/>
+</globals>
