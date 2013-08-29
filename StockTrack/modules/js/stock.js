@@ -26,13 +26,17 @@ function stockListCallback(status, stocksList)
 		
 		if(status == 400){
 			 var tmp =[];
+			 var pri = "0.00"
 			 if(( stocksList!=null || stocksList!= undefined ) && stocksList["opstatus"]==0){
 			 	stockResultTable = stocksList["stocks"];
 			 	for(var i=0;i<stocksList["stocks"].length;i++){
+					pri = stocksList["stocks"][i]["price"]
+					if( pri == "")
+					  pri = "0.00";
 						tmp.push({
 							"lblTicker":stocksList["stocks"][i]["symbol"],
 							"lblName":stocksList["stocks"][i]["company"],
-							"lblPrice":"$"+stocksList["stocks"][i]["price"],
+							"lblPrice":"$"+pri,
 							"imgStock":stocksList["stocks"][i]["imgUrl"]
 								});
 						}

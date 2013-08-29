@@ -1,7 +1,7 @@
 <properties>
     <attributes name="applogokey" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
-    <attributes name="mwaddrkey" value="10.10.4.129"/>
+    <attributes name="mwaddrkey" value="10.10.4.62"/>
     <attributes name="portkey" value=""/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
