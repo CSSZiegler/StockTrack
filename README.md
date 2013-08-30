@@ -9,3 +9,4 @@ The purpose of this application is to showcase XML service of Google Stock API.
 
 # Supported platforms:
  * Android
+ * iPhone
