@@ -4743,7 +4743,7 @@
             </choiceData>
             <widgetSkin>Skin Defaults</widgetSkin>
             <rowSkin>segTransparent</rowSkin>
-            <rowFocusSkin>Skin Defaults</rowFocusSkin>
+            <rowFocusSkin>segTransparent</rowFocusSkin>
             <alternateRowSkin>Skin Defaults</alternateRowSkin>
             <secHeaderSkin>Skin Defaults</secHeaderSkin>
             <thickness>1</thickness>
