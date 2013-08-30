@@ -2,7 +2,7 @@
 ****************************************************************
 *	Name    : getStockList
 *	Author  : Kony 
-*	Purpose : This function invokes Google stock API.
+*	Purpose : This function invokes XML service which uses Google Financial API.
 ****************************************************************
 */
 
@@ -10,22 +10,20 @@ function getStockList()
 {
 	var stockList = { serviceID:"getStock"};
 	var getStock = appmiddlewareinvokerasync(stockList, stockListCallback);
-	//kony.application.showLoadingScreen("loadingSkin","Loading...",constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true,true,null);
-	
 }
 
 /**
 ****************************************************************
 *	Name    : stockListCallback
 *	Author  : Kony 
-*	Purpose : This function is service callback function to fetch SubCategories list.
+*	Purpose : This function is service callback function to display the stock list on sucess.
 ****************************************************************
 */
 function stockListCallback(status, stocksList)
 {
 		
 		if(status == 400){
-			 var tmp =[];
+			 var stockDetailTmp =[];
 			 var pri = "0.00"
 			 if(( stocksList!=null || stocksList!= undefined ) && stocksList["opstatus"]==0){
 			 	stockResultTable = stocksList["stocks"];
@@ -33,39 +31,37 @@ function stockListCallback(status, stocksList)
 					pri = stocksList["stocks"][i]["price"]
 					if( pri == "")
 					  pri = "0.00";
-						tmp.push({
+						stockDetailTmp.push({
 							"lblTicker":stocksList["stocks"][i]["symbol"],
 							"lblName":stocksList["stocks"][i]["company"],
 							"lblPrice":"$"+pri,
 							"imgStock":stocksList["stocks"][i]["imgUrl"]
 								});
-						}
-					frmStockList.segStock.setData(tmp);
+				}
+					frmStockList.segStock.setData(stockDetailTmp);
 					frmStockList.show();		
-			 		//kony.application.dismissLoadingScreen(); 
-	   				                 
+			 			   				                 
 			 } 
 			else{
 	            	alert("Please check network connection and try again.");    	
-	   				//kony.application.dismissLoadingScreen(); 
-	   		}
+	   			}
 		}
 }
 /**
 ****************************************************************
 *	Name    : segStockPage
 *	Author  : Kony 
-*	Purpose : This function is to full stock list in page view.
+*	Purpose : This function is to display stock list in page view.
 ****************************************************************
 */
 
 function segStockPage()
 {
-	var tmp = [];
+	var stockDetailTmp = [];
 	var img = "";
 	for(var i=0;i<stockResultTable.length;i++){
 	 img= stockResultTable[i]["imgUrl"].replace("&amp;","&");
-		tmp.push({
+		stockDetailTmp.push({
 		     "lblTicker":stockResultTable[i]["symbol"],
 		     "imgStock":"https://www.google.com"+img,
 		     "lblCompany":stockResultTable[i]["company"],
@@ -74,13 +70,13 @@ function segStockPage()
 		     });
 	}
 	
-  frmStockPage.segstock.setData(tmp);
+  frmStockPage.segstock.setData(stockDetailTmp);
 }
 /**
 ****************************************************************
 *	Name    : getStockDetails
 *	Author  : Kony 
-*	Purpose : This function is to get full stock detils.
+*	Purpose : This function is to get complete stock detils of selceted company in the segment.
 ****************************************************************
 */
 

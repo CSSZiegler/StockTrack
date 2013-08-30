@@ -685,7 +685,7 @@
         <androidTitleBarData>
             <background_image></background_image>
             <skinID>Skin Defaults</skinID>
-            <visible>true</visible>
+            <visible>false</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
@@ -6728,7 +6728,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -8677,7 +8677,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -9981,7 +9981,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -11930,7 +11930,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -13879,7 +13879,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -15828,7 +15828,7 @@
                 <android>
                     <left>10</left>
                     <right>10</right>
-                    <top>5</top>
+                    <top>0</top>
                     <bottom>1</bottom>
                     <unit>px</unit>
                 </android>
@@ -17777,7 +17777,7 @@
                     <left>5</left>
                     <right>5</right>
                     <top>2</top>
-                    <bottom>0</bottom>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </android>
                 <android_override>true</android_override>
@@ -18404,6 +18404,7 @@
             <bb10_contentalignment>1</bb10_contentalignment>
             <bb10displaytext>true</bb10displaytext>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>

@@ -1,7 +1,7 @@
 <properties>
     <attributes name="applogokey" value=""/>
     <attributes name="ACCESS_WIFI_STATE" value="false"/>
-    <attributes name="mwaddrkey" value="10.10.4.62"/>
+    <attributes name="mwaddrkey" value=""/>
     <attributes name="portkey" value=""/>
     <attributes name="INTERNAL_SYSTEM_WINDOW" value="false"/>
     <attributes name="WRITE_SETTINGS" value="false"/>
@@ -76,7 +76,7 @@
     <attributes name="MANAGE_ACCOUNTS" value="false"/>
     <attributes name="androidscreenanydensity" value="true"/>
     <attributes name="win8badgelogokey" value=""/>
-    <attributes name="mwportkey" value="8080"/>
+    <attributes name="mwportkey" value=""/>
     <attributes name="win8certificatekey" value=""/>
     <attributes name="BRICK" value="false"/>
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
@@ -158,7 +158,7 @@
     <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>
-    <attributes name="apppackagekey" value="com.orgname.StockTrack"/>
+    <attributes name="apppackagekey" value="com.kony.StockTrack"/>
     <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="RECEIVE_MMS" value="false"/>

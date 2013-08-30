@@ -703,7 +703,7 @@
         <androidTitleBarData>
             <background_image></background_image>
             <skinID>Skin Defaults</skinID>
-            <visible>true</visible>
+            <visible>false</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
         <android_transition_out_effect>0</android_transition_out_effect>
@@ -9487,6 +9487,7 @@
                 <bb10_contentalignment>0</bb10_contentalignment>
             </children>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.iphonetitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>
         <winphone8_outtransition>Default</winphone8_outtransition>
