@@ -39,8 +39,9 @@ function stockListCallback(status, stocksList)
 								});
 				}
 					frmStockList.segStock.setData(stockDetailTmp);
+					frmStockList.segStock.selectedIndex=[0,0];
 					frmStockList.show();		
-			 			   				                 
+			 		getStockDetilsTablet();	   				                 
 			 } 
 			else{
 	            	alert("Please check network connection and try again.");    	
@@ -113,5 +114,41 @@ function getStockDetails(eventobject)
 function getMoreInfo()
 {
 	kony.application.openURL("https://www.google.com"+url);
+
+}
+/**
+****************************************************************
+*	Name    : getStockDetilsTablet
+*	Author  : Kony 
+*	Purpose : This function is to display stock detils selected company for tablet channels .
+****************************************************************
+*/
+
+function getStockDetilsTablet(eventobject)
+{
+  var symbol= null;
+  if(eventobject!=null && eventobject!=undefined)
+  symbol = eventobject.selectedItems[0].lblTicker;
+  else 
+  symbol = frmStockList["segStock"]["selectedItems"][0]["lblTicker"];
+  var stockDetails = null;
+  for(var i=0;i<stockResultTable.length;i++){
+  if(stockResultTable[i]["symbol"]== symbol){
+     stockDetails = stockResultTable[i];
+     break;
+  }
+  }
+   frmStockList.lblCom.text = stockDetails["company"];
+   frmStockList.lblPriceUSD.text = stockDetails["price"]+" "+stockDetails["currency"];
+   frmStockList.imgStockChart.src = "https://www.google.com"+stockDetails["imgUrl"];
+   frmStockList.lblCom1.text = stockDetails["company"];  
+   frmStockList.lblExc.text = stockDetails["exchange"];
+   frmStockList.lblLow.text = stockDetails["low"];
+   frmStockList.lblHigh.text = stockDetails["high"];
+   frmStockList.lblLast.text = stockDetails["last"];
+   frmStockList.lblCurr.text = stockDetails["currency"];
+   url = stockDetails["url"].replace("&amp;","&");
+   frmStockList.show();
+  
 
 }
