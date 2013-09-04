@@ -41,7 +41,13 @@ function stockListCallback(status, stocksList)
 					frmStockList.segStock.setData(stockDetailTmp);
 					frmStockList.segStock.selectedIndex=[0,0];
 					frmStockList.show();		
-			 		getStockDetilsTablet();	   				                 
+			 		//#ifdef ipad
+			 			getStockDetilsTablet();	 
+			 		//#else
+			 			
+			 		//#endif
+			 		
+			 		  				                 
 			 } 
 			else{
 	            	alert("Please check network connection and try again.");    	
@@ -126,9 +132,11 @@ function getMoreInfo()
 
 function getStockDetilsTablet(eventobject)
 {
+  
   var symbol= null;
-  if(eventobject!=null && eventobject!=undefined)
-  symbol = eventobject.selectedItems[0].lblTicker;
+  if(eventobject!=null && eventobject!=undefined){
+    symbol = eventobject.selectedItems[0].lblTicker;
+  }
   else 
   symbol = frmStockList["segStock"]["selectedItems"][0]["lblTicker"];
   var stockDetails = null;
@@ -138,6 +146,7 @@ function getStockDetilsTablet(eventobject)
      break;
   }
   }
+  
    frmStockList.lblCom.text = stockDetails["company"];
    frmStockList.lblPriceUSD.text = stockDetails["price"]+" "+stockDetails["currency"];
    frmStockList.imgStockChart.src = "https://www.google.com"+stockDetails["imgUrl"];
