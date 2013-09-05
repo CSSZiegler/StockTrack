@@ -41,12 +41,10 @@ function stockListCallback(status, stocksList)
 					frmStockList.segStock.setData(stockDetailTmp);
 					frmStockList.segStock.selectedIndex=[0,0];
 					frmStockList.show();		
-			 		//#ifdef ipad
+			 		var device = kony.os.deviceInfo().name;
+			 		//alert("$$"+device);
+			 		if(device =='iPad' || device == "thinclient" )
 			 			getStockDetilsTablet();	 
-			 		//#else
-			 			
-			 		//#endif
-			 		
 			 		  				                 
 			 } 
 			else{
@@ -139,6 +137,9 @@ function getStockDetilsTablet(eventobject)
   }
   else 
   symbol = frmStockList["segStock"]["selectedItems"][0]["lblTicker"];
+  
+  if(symbol==null || symbol=="")
+  	symbol="AAPL";
   var stockDetails = null;
   for(var i=0;i<stockResultTable.length;i++){
   if(stockResultTable[i]["symbol"]== symbol){
@@ -146,7 +147,7 @@ function getStockDetilsTablet(eventobject)
      break;
   }
   }
-  
+  if(stockDetails!=null){
    frmStockList.lblCom.text = stockDetails["company"];
    frmStockList.lblPriceUSD.text = stockDetails["price"]+" "+stockDetails["currency"];
    frmStockList.imgStockChart.src = "https://www.google.com"+stockDetails["imgUrl"];
@@ -157,6 +158,7 @@ function getStockDetilsTablet(eventobject)
    frmStockList.lblLast.text = stockDetails["last"];
    frmStockList.lblCurr.text = stockDetails["currency"];
    url = stockDetails["url"].replace("&amp;","&");
+   }
    frmStockList.show();
   
 

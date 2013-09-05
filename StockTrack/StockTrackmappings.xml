@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <application name="StockTrack" id="StockTrack">
     <container type="form" id="frmStockList" displayname="Form"/>
+    <container type="form" id="frmStockList" displayname="Form"/>
     <container type="form" id="frmStockDetails" displayname="Form"/>
     <container type="form" id="frmStockList" displayname="Form"/>
     <container type="form" id="frmStockPage" displayname="Form"/>

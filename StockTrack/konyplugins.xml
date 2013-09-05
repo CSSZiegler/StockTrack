@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugins>
-    <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.15.QA_v201308281455"/>
+    <pluginInfo plugin-name="Kony Studio" plugin-id="com.pat.tool.keditor.KEditorPlugin" version-no="5.5.16.QA_v201309031834"/>
     <pluginInfo plugin-name="Third Party Jars Plug-in" version-no="5.5.5.QA_v201308201416"/>
     <pluginInfo plugin-name="Soap UI Plugin" plugin-id="com.pat.soapui.SoapUIPlugin" version-no="5.5.3.QA_v201308211548"/>
     <pluginInfo plugin-name="Kony Codegenerator" version-no="5.5.15.QA_v201308281832"/>
     <pluginInfo plugin-name="KonyHelp Plug-in" plugin-id="com.kony.help.Activator" version-no="5.0.30.QA_v201307121132"/>
-    <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.1.QA_v201308211743"/>
-    <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.2.QA_v201308211827"/>
+    <pluginInfo plugin-name="Nativecodegen" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" version-no="5.5.0.beta_v201308312133"/>
+    <pluginInfo plugin-name="Kony Studio Licensing" version-no="5.5.0.beta_v201309010039"/>
     <pluginInfo plugin-name="CloudMiddlewarePlugin" plugin-id="com.kony.cloudmiddleware.Activator" version-no="5.5.2.QA_v201308291011"/>
     <pluginInfo plugin-name="CloudThirdPartyPlugin" plugin-id="com.kony.cloudthirdparty.Activator" version-no="5.5.2.QA_v201308291011"/>
     <pluginInfo plugin-name="Lua Core" plugin-id="org.keplerproject.ldt.core.LuaCorePlugin" version-no="5.5.1.QA_v201306242126"/>
@@ -26,7 +26,7 @@
     <pluginInfo plugin-name="Android" plugin-id="com.pat.android.Activator" version-no="5.5.13.QA_v201308231524"/>
     <pluginInfo plugin-name="ThinClient" plugin-id="thinclientplugin.Activator" version-no="5.5.6.QA_v201308211731"/>
     <pluginInfo plugin-name="Windows Desktop Plug-in" plugin-id="com.kony.windows.WinDesktopPlugin" version-no="5.5.2.QA_v201308281626"/>
-    <pluginInfo plugin-name="SPA" version-no="5.5.9.QA_v201308291128"/>
+    <pluginInfo plugin-name="SPA" version-no="5.5.10.QA_v201309021628"/>
     <pluginInfo plugin-name="Desktop Web" version-no="5.5.10.QA_v201308291136"/>
     <pluginInfo plugin-name="Kony Sync" plugin-id="com.kony.sync.ide.SyncPlugin" version-no="5.5.34.QA_v201307302024"/>
     <pluginInfo plugin-name="Kony Web Commons" plugin-id="com.kony.web.Activator" version-no="5.5.2.QA_v201308211754"/>
