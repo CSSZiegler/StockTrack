@@ -42,10 +42,9 @@ function stockListCallback(status, stocksList)
 					frmStockList.segStock.selectedIndex=[0,0];
 					frmStockList.show();		
 			 		var device = kony.os.deviceInfo().name;
-			 		//alert("$$"+device);
 			 		if(device =='iPad' || device == "thinclient" )
-			 			getStockDetilsTablet();	 
-			 		  				                 
+			 		   getStockDetilsTablet();	 
+			 		  			                 
 			 } 
 			else{
 	            	alert("Please check network connection and try again.");    	
