@@ -1174,9 +1174,9 @@
                 <desktop_kiosk_override>false</desktop_kiosk_override>
                 <desktop_web>
                     <left>0</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </desktop_web>
                 <desktop_web_override>true</desktop_web_override>
@@ -2860,12 +2860,16 @@
                                         <key>js</key>
                                         <value>getStockDetilsTablet</value>
                                     </entry>
+                                    <entry>
+                                        <key>lua</key>
+                                        <value>None</value>
+                                    </entry>
                                 </functionNameMap>
                                 <paramData>
                                     <datatype>string</datatype>
                                     <paramName>eventobject</paramName>
                                     <valType>0</valType>
-                                    <value>eventobject</value>
+                                    <value></value>
                                     <valueMap>
                                         <entry>
                                             <key>js</key>
@@ -2881,7 +2885,24 @@
                                                 <datatype>string</datatype>
                                                 <paramName>eventobject</paramName>
                                                 <valType>0</valType>
-                                                <value>eventobject</value>
+                                                <value></value>
+                                                <valueMap>
+                                                    <entry>
+                                                        <key>js</key>
+                                                        <value>eventobject</value>
+                                                    </entry>
+                                                </valueMap>
+                                            </paramList>
+                                        </value>
+                                    </entry>
+                                    <entry>
+                                        <key>lua</key>
+                                        <value>
+                                            <paramList>
+                                                <datatype>string</datatype>
+                                                <paramName>eventobject</paramName>
+                                                <valType>0</valType>
+                                                <value></value>
                                                 <valueMap>
                                                     <entry>
                                                         <key>js</key>
@@ -4248,6 +4269,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -6190,6 +6212,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -6835,6 +6858,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -8171,6 +8195,7 @@
                         <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                         <ipad_glossy_effect>0</ipad_glossy_effect>
                         <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <onDownloadComplete_root>
                             <evtSequence>
@@ -9519,6 +9544,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -10164,6 +10190,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -10809,6 +10836,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -11454,6 +11482,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -12758,6 +12787,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -14038,6 +14068,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -14683,6 +14714,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -15971,6 +16003,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -16616,6 +16649,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -17904,6 +17938,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -18549,6 +18584,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -19837,6 +19873,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -20482,6 +20519,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>

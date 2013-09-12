@@ -718,7 +718,7 @@
         <symbian_defaultOutTransition>true</symbian_defaultOutTransition>
         <androidTitleBarData>
             <background_image></background_image>
-            <skinID>Skin Defaults</skinID>
+            <skinID>titleBar</skinID>
             <visible>true</visible>
         </androidTitleBarData>
         <android_softkeyMode>SoftInput adjust resize</android_softkeyMode>
@@ -1245,7 +1245,7 @@
                     <bottom>0</bottom>
                     <unit>%</unit>
                 </tabRCAndroid>
-                <tablet_rc_android_override>false</tablet_rc_android_override>
+                <tablet_rc_android_override>true</tablet_rc_android_override>
                 <tabspaAndroid>
                     <left>0</left>
                     <right>0</right>
@@ -2891,6 +2891,23 @@
                                             </paramList>
                                         </value>
                                     </entry>
+                                    <entry>
+                                        <key>lua</key>
+                                        <value>
+                                            <paramList>
+                                                <datatype>string</datatype>
+                                                <paramName>eventobject</paramName>
+                                                <valType>0</valType>
+                                                <value>eventobject</value>
+                                                <valueMap>
+                                                    <entry>
+                                                        <key>js</key>
+                                                        <value>eventobject</value>
+                                                    </entry>
+                                                </valueMap>
+                                            </paramList>
+                                        </value>
+                                    </entry>
                                 </paramDataMap>
                             </actionList>
                             <enabled>true</enabled>
@@ -4248,6 +4265,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -4724,9 +4742,9 @@
                         <bottom>0</bottom>
                         <unit>%</unit>
                     </spaipad>
-                    <spaipad_override>false</spaipad_override>
-                    <spatablet_android_override>false</spatablet_android_override>
-                    <spatablet_windows_override>false</spatablet_windows_override>
+                    <spaipad_override>true</spaipad_override>
+                    <spatablet_android_override>true</spatablet_android_override>
+                    <spatablet_windows_override>true</spatablet_windows_override>
                     <symbian>
                         <left>0</left>
                         <right>0</right>
@@ -5354,9 +5372,9 @@
                             <bottom>0</bottom>
                             <unit>%</unit>
                         </spaipad>
-                        <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
-                        <spatablet_windows_override>false</spatablet_windows_override>
+                        <spaipad_override>true</spaipad_override>
+                        <spatablet_android_override>true</spatablet_android_override>
+                        <spatablet_windows_override>true</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
                             <right>0</right>
@@ -6190,6 +6208,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -6835,6 +6854,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -7304,7 +7324,7 @@
                             <unit>%</unit>
                         </spaipad>
                         <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -8806,6 +8826,7 @@
                             <iphone_downloadProgressIndicator>true</iphone_downloadProgressIndicator>
                             <ipad_glossy_effect>0</ipad_glossy_effect>
                             <ipad_downloadProgressIndicator>true</ipad_downloadProgressIndicator>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <onDownloadComplete_root>
                                 <evtSequence>
@@ -9073,11 +9094,11 @@
                         <tabRCAndroid>
                             <left>0</left>
                             <right>0</right>
-                            <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <top>10</top>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>1</left>
                             <right>1</right>
@@ -9327,7 +9348,7 @@
                             <unit>%</unit>
                         </spaipad>
                         <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -10162,6 +10183,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -10807,6 +10829,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -11023,10 +11046,10 @@
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>1</left>
                             <right>1</right>
@@ -11276,7 +11299,7 @@
                             <unit>%</unit>
                         </spaipad>
                         <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -12111,6 +12134,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -12756,6 +12780,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -12972,10 +12997,10 @@
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>1</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>1</left>
                             <right>1</right>
@@ -13225,7 +13250,7 @@
                             <unit>%</unit>
                         </spaipad>
                         <spaipad_override>false</spaipad_override>
-                        <spatablet_android_override>false</spatablet_android_override>
+                        <spatablet_android_override>true</spatablet_android_override>
                         <spatablet_windows_override>false</spatablet_windows_override>
                         <symbian>
                             <left>0</left>
@@ -14060,6 +14085,7 @@
                         <ipad_longtext>false</ipad_longtext>
                         <ipad_wrapping>0</ipad_wrapping>
                         <ipad_content_align>0</ipad_content_align>
+                        <c_ToolTip></c_ToolTip>
                         <tooltip></tooltip>
                         <bb_longtext>false</bb_longtext>
                         <bb_content_align>0</bb_content_align>
@@ -14218,8 +14244,8 @@
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>1</bottom>
-                            <unit>%</unit>
+                            <bottom>3</bottom>
+                            <unit>px</unit>
                         </ipad>
                         <ipad_override>true</ipad_override>
                         <iphonerc>
@@ -14276,10 +14302,10 @@
                             <left>0</left>
                             <right>0</right>
                             <top>0</top>
-                            <bottom>0</bottom>
-                            <unit>%</unit>
+                            <bottom>3</bottom>
+                            <unit>px</unit>
                         </tabRCAndroid>
-                        <tablet_rc_android_override>false</tablet_rc_android_override>
+                        <tablet_rc_android_override>true</tablet_rc_android_override>
                         <tabspaAndroid>
                             <left>1</left>
                             <right>1</right>
@@ -15999,6 +16025,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -16644,6 +16671,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -17932,6 +17960,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -18577,6 +18606,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -19865,6 +19895,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -20510,6 +20541,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -21798,6 +21830,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -22443,6 +22476,7 @@
                             <ipad_longtext>false</ipad_longtext>
                             <ipad_wrapping>0</ipad_wrapping>
                             <ipad_content_align>0</ipad_content_align>
+                            <c_ToolTip></c_ToolTip>
                             <tooltip></tooltip>
                             <bb_longtext>false</bb_longtext>
                             <bb_content_align>0</bb_content_align>
@@ -22498,6 +22532,7 @@
             </desktopweb_onRightClick>
             <winphone8_position>0</winphone8_position>
         </children>
+        <overrideProperties>KForm.androidtitleBar</overrideProperties>
         <overrideProperties>KForm.ipad_Orientation</overrideProperties>
         <overrideProperties>KForm.ipadtitleBar</overrideProperties>
         <winphone8_intransition>Default</winphone8_intransition>

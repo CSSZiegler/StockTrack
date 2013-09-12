@@ -39,12 +39,11 @@ function stockListCallback(status, stocksList)
 								});
 				}
 					frmStockList.segStock.setData(stockDetailTmp);
-					frmStockList.segStock.selectedIndex=[0,0];
 					frmStockList.show();		
-			 		var device = kony.os.deviceInfo().name;
-			 		if(device =='iPad' || device == "thinclient" )
+			 		if(!isMobile){
+			 		   frmStockList.segStock.selectedIndex=[0,0];
 			 		   getStockDetilsTablet();	 
-			 		  			                 
+			 		 }	                 
 			 } 
 			else{
 	            	alert("Please check network connection and try again.");    	

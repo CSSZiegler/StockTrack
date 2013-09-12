@@ -78,6 +78,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -124,8 +127,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -215,6 +218,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -352,6 +358,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -489,6 +498,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -624,6 +636,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -759,6 +774,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -894,6 +912,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1029,6 +1050,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1166,6 +1190,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="50" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1303,6 +1330,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1438,6 +1468,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1573,6 +1606,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1710,6 +1746,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1847,6 +1886,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -1984,6 +2026,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2120,6 +2165,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2255,6 +2303,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2392,6 +2443,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2527,6 +2581,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2666,6 +2723,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="50" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2801,6 +2861,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -2938,6 +3001,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3073,6 +3139,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3208,6 +3277,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3345,6 +3417,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3482,6 +3557,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3619,6 +3697,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3665,8 +3746,8 @@
 <att name="Shadow_y" value="0" type="Integer"/>
 <att name="BlurRadius" value="0" type="Integer"/>
 <att name="InnerShadow" value="false" type="Boolean"/>
-        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="FontNameMap" value="SPA iPhone,Arial" type="map"/>
+        <att name="FontNameMap" value="SPA Android,Arial" type="map"/>
         <att name="ApplicablePlatforms" value="1111100111110111111111110000111" type="String"/>
         <att name="UseNative" value="false" type="Boolean"/>
         <att name="Font_color_override" value="true" type="Boolean"/>
@@ -3756,6 +3837,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="50" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -3893,6 +3977,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -4028,6 +4115,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -4169,6 +4259,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
@@ -4304,6 +4397,9 @@
         <att name="arcRadius" value="0" type="int"/>
         <att name="Stretch_image" value="false" type="Boolean"/>
         <att name="Bg_height" value="15" type="Integer"/>
+        <att name="Repeat_image" value="false" type="Boolean"/>
+        <att name="Repeat_vertically_image" value="false" type="Boolean"/>
+        <att name="CustomCss" value="false" type="Boolean"/>
         <att name="Split_value" value="50" type="String"/>
         <att name="Bg_alpha" value="0" type="String"/>
         <att name="Bg_top_alpha" value="0" type="String"/>
