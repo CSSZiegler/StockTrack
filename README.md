@@ -8,9 +8,16 @@ Project Owner: Malla Nandikonda <Malla.Nandikonda@kony.com>
 The purpose of this application is to showcase XML service of Google Stock API.
 
 # Supported platforms:
+**Mobile**
  * Android
  * iPhone
- * iPad
  * SPA Android
  * SPA iPhone
+ 
+**Tablet** 
+ * iPad
  * SPA iPad
+ * SPA Android Tablet
+ 
+**Desktop**
+ * DesktopWeb
