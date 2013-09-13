@@ -866,10 +866,10 @@
                 </android>
                 <android_override>false</android_override>
                 <bb>
-                    <left>1</left>
-                    <right>1</right>
-                    <top>1</top>
-                    <bottom>1</bottom>
+                    <left>0</left>
+                    <right>0</right>
+                    <top>0</top>
+                    <bottom>0</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -1517,10 +1517,10 @@
                     </android>
                     <android_override>false</android_override>
                     <bb>
-                        <left>1</left>
-                        <right>1</right>
-                        <top>1</top>
-                        <bottom>1</bottom>
+                        <left>0</left>
+                        <right>0</right>
+                        <top>0</top>
+                        <bottom>0</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>
@@ -1786,8 +1786,8 @@
                     <bb>
                         <left>0</left>
                         <right>0</right>
-                        <top>0</top>
-                        <bottom>0</bottom>
+                        <top>2</top>
+                        <bottom>2</bottom>
                         <unit>%</unit>
                     </bb>
                     <bb10>
@@ -2444,8 +2444,8 @@
                 <bb>
                     <left>0</left>
                     <right>0</right>
-                    <top>3</top>
-                    <bottom>3</bottom>
+                    <top>2</top>
+                    <bottom>2</bottom>
                     <unit>%</unit>
                 </bb>
                 <bb10>
@@ -6904,8 +6904,8 @@
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth></referenceWidth>
-                        <referenceHeight></referenceHeight>
+                        <referenceWidth>212</referenceWidth>
+                        <referenceHeight>116</referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
                         <rendererData>
@@ -7499,8 +7499,8 @@
                         </overridePerferred>
                         <contentAlign>4</contentAlign>
                         <defaultImageText></defaultImageText>
-                        <animationText></animationText>
-                        <scale_mode>1</scale_mode>
+                        <animationText>loading1.png</animationText>
+                        <scale_mode>0</scale_mode>
                         <itemSkinId>Skin Defaults</itemSkinId>
                         <itemFocusSkinId>Skin Defaults</itemFocusSkinId>
                         <iphone_glossy_effect>0</iphone_glossy_effect>
@@ -7651,7 +7651,7 @@
                             <android>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>2</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </android>
@@ -7659,7 +7659,7 @@
                             <bb>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>2</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </bb>
@@ -7676,7 +7676,7 @@
                             <defaults>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>2</top>
                                 <bottom>0</bottom>
                                 <unit>%</unit>
                             </defaults>
@@ -7707,9 +7707,9 @@
                             <iphonerc>
                                 <left>0</left>
                                 <right>0</right>
-                                <top>0</top>
+                                <top>2</top>
                                 <bottom>0</bottom>
-                                <unit>px</unit>
+                                <unit>%</unit>
                             </iphonerc>
                             <iphonerc_override>true</iphonerc_override>
                             <j2me>

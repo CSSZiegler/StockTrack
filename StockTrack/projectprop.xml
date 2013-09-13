@@ -10,13 +10,13 @@
     <attributes name="ACCOUNT_MANAGER" value="false"/>
     <attributes name="tcpalm480basefontsize" value="14"/>
     <attributes name="wp8cycle6key" value=""/>
-    <attributes name="wp8packagepublisheridkey" value=""/>
+    <attributes name="wp8packagepublisheridkey" value="c12a4148-a660-454c-8910-2a1b32310faf"/>
     <attributes name="Home_or_Work_Networking" value="true"/>
     <attributes name="andminsdkkey" value="2.1"/>
     <attributes name="PERSISTENT_ACTIVITY" value="false"/>
     <attributes name="READ_SMS" value="false"/>
     <attributes name="applepushfunc" value="None"/>
-    <attributes name="Internet(Client)" value="false"/>
+    <attributes name="Internet(Client)" value="true"/>
     <attributes name="MODIFY_AUDIO_SETTINGS" value="false"/>
     <attributes name="tcnth480basefontsize" value="17"/>
     <attributes name="hybridaddrkey" value=""/>
@@ -28,10 +28,10 @@
     <attributes name="ACCESS_COARSE_LOCATION" value="false"/>
     <attributes name="RESTART_PACKAGES" value="false"/>
     <attributes name="ID_CAP_PHONEDIALER" value="true"/>
-    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_PAYMENTINSTRUMENTS" value="false"/>
     <attributes name="removeprintstatements" value="true"/>
     <attributes name="appversionkey" value="1.0.0"/>
-    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="true"/>
+    <attributes name="WP8_ID_CAP_GAMERSERVICES" value="false"/>
     <attributes name="BIND_WALLPAPER" value="false"/>
     <attributes name="isNewAppWithRespectToAndroidPackageName" value="true"/>
     <attributes name="SET_ANIMATION_SCALE" value="false"/>
@@ -39,10 +39,10 @@
     <attributes name="ID_CAP_LOCATION" value="true"/>
     <attributes name="wp8tilestitlekey" value=""/>
     <attributes name="SET_TIME" value="false"/>
-    <attributes name="Enterprise_Authentication" value="false"/>
+    <attributes name="Enterprise_Authentication" value="true"/>
     <attributes name="DIAGNOSTIC" value="false"/>
     <attributes name="WRITE_CALENDAR" value="false"/>
-    <attributes name="Videos_Library_Access" value="false"/>
+    <attributes name="Videos_Library_Access" value="true"/>
     <attributes name="WRITE_SMS" value="false"/>
     <attributes name="ID_REQ_GYROSCOPE" value="false"/>
     <attributes name="WP8_ID_CAP_PUSH_NOTIFICATION" value="true"/>
@@ -87,26 +87,26 @@
     <attributes name="ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="SET_PREFERRED_APPLICATIONS" value="false"/>
     <attributes name="GET_TASKS" value="false"/>
-    <attributes name="Music_Library" value="false"/>
+    <attributes name="Music_Library" value="true"/>
     <attributes name="tabletstartupformkey" value="frmStockList"/>
     <attributes name="tciphonebasefontsize" value="12"/>
     <attributes name="bb10keystorepassword" value=""/>
     <attributes name="pathpatternkey" value=""/>
     <attributes name="wp8iconicsmallkey" value=""/>
     <attributes name="splashlogokey" value="0=splash.png,8=splash.9.png,16=splashtab.png,37=splashtab.png"/>
-    <attributes name="Shared_User_Certificates" value="false"/>
+    <attributes name="Shared_User_Certificates" value="true"/>
     <attributes name="inputaccessoryviewtype" value="nextprevtoolbar"/>
     <attributes name="android_allowselfsignedcertificates" value="None"/>
     <attributes name="imagewhendownloading" value=""/>
     <attributes name="WP8_ID_CAP_IDENTITY_DEVICE" value="true"/>
     <attributes name="INSTALL_LOCATION_PROVIDER" value="false"/>
     <attributes name="fbxfolderpathkey" value=""/>
-    <attributes name="ID_RESOLUTION_HD720P" value="false"/>
+    <attributes name="ID_RESOLUTION_HD720P" value="true"/>
     <attributes name="READ_CONTACTS" value="false"/>
     <attributes name="wintileforegroundnamekey" value="Light"/>
     <attributes name="ID_CAP_GAMERSERVICES" value="true"/>
     <attributes name="iphoneipadglossyeffectkey" value="false"/>
-    <attributes name="Text_Messaging" value="false"/>
+    <attributes name="Text_Messaging" value="true"/>
     <attributes name="HARDWARE_TEST" value="false"/>
     <attributes name="WP8_ID_CAP_APPOINTMENTS" value="true"/>
     <attributes name="USE_CREDENTIALS" value="false"/>
@@ -143,7 +143,7 @@
     <attributes name="BIND_DEVICE_ADMIN" value="false"/>
     <attributes name="build" value="release"/>
     <attributes name="MANAGE_APP_TOKENS" value="false"/>
-    <attributes name="Pictures_Library_Access" value="false"/>
+    <attributes name="Pictures_Library_Access" value="true"/>
     <attributes name="RECEIVE_BOOT_COMPLETED" value="false"/>
     <attributes name="tcnth360basefontsize" value="13"/>
     <attributes name="generateJavaCodeForForms" value="false"/>
@@ -155,20 +155,20 @@
     <attributes name="RECEIVE_SMS" value="false"/>
     <attributes name="BIND_REMOTEVIEWS" value="false"/>
     <attributes name="appidkey" value="StockTrack"/>
-    <attributes name="Proximity" value="false"/>
+    <attributes name="Proximity" value="true"/>
     <attributes name="WP8_ID_CAP_PROXIMITY" value="true"/>
     <attributes name="DELETE_CACHE_FILES" value="false"/>
     <attributes name="bbserviceidentifierpattern" value=""/>
     <attributes name="BATTERY_STATS" value="false"/>
     <attributes name="win8toastcapablekey" value="Not set"/>
     <attributes name="ACCESS_CHECKIN_PROPERTIES" value="false"/>
-    <attributes name="Webcam" value="false"/>
+    <attributes name="Webcam" value="true"/>
     <attributes name="winmobileguidkey" value="4c43866c-71b3-4e18-ac41-c574051db2e0"/>
     <attributes name="tcbjs240basefontsize" value="10"/>
     <attributes name="SET_ALWAYS_FINISH" value="false"/>
     <attributes name="apptitle" value=""/>
     <attributes name="apppackagekey" value="com.kony.StockTrack"/>
-    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="true"/>
+    <attributes name="WP8_ID_CAP_WALLET_SECUREELEMENT" value="false"/>
     <attributes name="SET_ALARM" value="false"/>
     <attributes name="read_device_identifying_information" value="false"/>
     <attributes name="RECEIVE_MMS" value="false"/>
@@ -300,7 +300,7 @@
     <attributes name="tcbjs480basefontsize" value="10"/>
     <attributes name="createdgaversion" value="5.0.0"/>
     <attributes name="WP8_ID_CAP_MEDIALIB_PLAYBACK" value="true"/>
-    <attributes name="ID_RESOLUTION_WVGA" value="false"/>
+    <attributes name="ID_RESOLUTION_WVGA" value="true"/>
     <attributes name="desktopwebbasefontsize" value="16"/>
     <attributes name="tcbjs320basefontsize" value="10"/>
     <attributes name="CLEAR_APP_CACHE" value="false"/>
@@ -369,7 +369,7 @@
     <attributes name="spaandroidtabbasefontsize" value="17"/>
     <attributes name="SET_WALLPAPER" value="false"/>
     <attributes name="ID_REQ_MAGNETOMETER" value="false"/>
-    <attributes name="Microphone" value="false"/>
+    <attributes name="Microphone" value="true"/>
     <attributes name="READ_SYNC_STATS" value="false"/>
     <attributes name="SEND_SMS" value="false"/>
     <attributes name="desktopwebfavico" value=""/>

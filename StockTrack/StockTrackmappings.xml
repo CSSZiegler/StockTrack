@@ -2,7 +2,9 @@
 <application id="StockTrack" name="StockTrack">
     <container displayname="Form" id="frmStockList" type="form"/>
     <container displayname="Form" id="frmStockList" type="form"/>
+    <container displayname="Form" id="frmStockDetails" type="form"/>
     <container displayname="Form" id="frmStockList" type="form"/>
+    <container displayname="Form" id="frmStockPage" type="form"/>
     <globalsequences/>
     <skins/>
 </application>
