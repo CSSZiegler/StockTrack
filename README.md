@@ -1,10 +1,14 @@
 StockTrack
 ==========
-Application to Showcase XML Services using Google Stock API.
-
+Display 10 stock symbols.
 
 # Purpose
-The purpose of this application is to showcase XML service of Google Stock API.
+This is the sample application for the Kony FastTrack #1: Using Web Services tutorial. It uses the Google Financial API to demonstrate how to setup and consume web services using Kony Studio and Kony Middleware. 
+
+To build and run this app you will need to download and install Kony Studio. You can register and download the trial version from www.kony.com.
+
+# Screenshot
+![Android emulator screenshot](https://raw.github.com/kony/screenshots/master/StockTrack/Mobile/Android/1.png)
 
 # Supported platforms:
 **Mobile**
