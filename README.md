@@ -16,9 +16,9 @@ The purpose of this application is to showcase XML service of Google Stock API.
  
 **Tablet** 
  * iPad
- * Android Tablet
+ * Android
  * SPA iPad
- * SPA Android Tablet
+ * SPA Android
  
 **Desktop**
  * DesktopWeb
