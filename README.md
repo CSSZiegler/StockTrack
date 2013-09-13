@@ -8,7 +8,7 @@ This is the sample application for the Kony FastTrack #1: Using Web Services tut
 To build and run this app you will need to download and install Kony Studio. You can register and download the trial version from www.kony.com.
 
 # Screenshot
-![Android emulator screenshot](https://raw.github.com/kony/screenshots/master/StockTrack/Mobile/Android/1.png)
+![Android emulator screenshot](https://raw.github.com/kony-solutions/screenshots/master/StockTrack/Mobile/Android/1.png)
 
 # Supported platforms:
 **Mobile**
