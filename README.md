@@ -10,11 +10,13 @@ The purpose of this application is to showcase XML service of Google Stock API.
 **Mobile**
  * Android
  * iPhone
+ * BlackBerry
  * SPA Android
  * SPA iPhone
  
 **Tablet** 
  * iPad
+ * Android Tablet
  * SPA iPad
  * SPA Android Tablet
  
