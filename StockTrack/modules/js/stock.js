@@ -10,6 +10,7 @@ function getStockList()
 {
 	var stockList = { serviceID:"getStock"};
 	var getStock = appmiddlewareinvokerasync(stockList, stockListCallback);
+	
 }
 
 /**

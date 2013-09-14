@@ -21,7 +21,7 @@
     <pluginInfo version-no="5.5.0.beta_v201308312209" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
     <pluginInfo version-no="5.5.4.QA_v201309101803" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
     <pluginInfo version-no="5.5.0.beta_v201308311937" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312040" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
+    <pluginInfo version-no="5.5.3.QA_v201308291426" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
     <pluginInfo version-no="5.5.0.beta_v201308312048" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
     <pluginInfo version-no="5.5.0.beta_v201308312109" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
     <pluginInfo version-no="5.5.7.QA_v201309021731" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
