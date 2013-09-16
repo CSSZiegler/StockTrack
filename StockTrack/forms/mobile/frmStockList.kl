@@ -4069,12 +4069,12 @@
                                     <value>true</value>
                                 </entry>
                                 <entry>
-                                    <key>winmobile</key>
-                                    <value>true</value>
-                                </entry>
-                                <entry>
                                     <key>bb</key>
                                     <value>false</value>
+                                </entry>
+                                <entry>
+                                    <key>winmobile</key>
+                                    <value>true</value>
                                 </entry>
                             </platMap>
                         </actionList>

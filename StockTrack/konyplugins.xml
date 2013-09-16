@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugins>
-    <pluginInfo version-no="5.5.19.QA_v201309102135" plugin-id="com.pat.tool.keditor.KEditorPlugin" plugin-name="Kony Studio"/>
+    <pluginInfo version-no="5.5.20.QA_v201309131735" plugin-id="com.pat.tool.keditor.KEditorPlugin" plugin-name="Kony Studio"/>
     <pluginInfo version-no="5.5.7.QA_v201309102154" plugin-name="Third Party Jars Plug-in"/>
     <pluginInfo version-no="5.5.0.beta_v201308311959" plugin-id="com.pat.soapui.SoapUIPlugin" plugin-name="Soap UI Plugin"/>
-    <pluginInfo version-no="5.5.17.QA_v201309101242" plugin-name="Kony Codegenerator"/>
-    <pluginInfo version-no="5.5.0.beta_v201308311939" plugin-id="com.kony.help.Activator" plugin-name="KonyHelp Plug-in"/>
+    <pluginInfo version-no="5.5.18.QA_v201309131010" plugin-name="Kony Codegenerator"/>
+    <pluginInfo version-no="5.5.2.QA_v201309111828" plugin-id="com.kony.help.Activator" plugin-name="KonyHelp Plug-in"/>
     <pluginInfo version-no="5.5.0.beta_v201308312133" plugin-id="com.kony.nativecodegen.NativeCodeGenPlugin" plugin-name="Nativecodegen"/>
     <pluginInfo version-no="5.5.0.beta_v201309010039" plugin-name="Kony Studio Licensing"/>
     <pluginInfo version-no="5.5.3.QA_v201309051153" plugin-id="com.kony.cloudmiddleware.Activator" plugin-name="CloudMiddlewarePlugin"/>
@@ -18,13 +18,13 @@
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.kepler.ldt.laucher.LauncherPlugin" plugin-name="Lua Debug Launcher"/>
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.core.LuaDebuggerPlugin" plugin-name="Lua Debug Core"/>
     <pluginInfo version-no="5.5.0.beta_v201308312045" plugin-id="org.keplerproject.ldt.debug.ui.LuaDebugUIPlugin" plugin-name="Lua Debug UI"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312209" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
-    <pluginInfo version-no="5.5.4.QA_v201309101803" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
+    <pluginInfo version-no="5.5.15.QA_v201309111418" plugin-id="com.pat.android.Activator" plugin-name="Tablet Android"/>
+    <pluginInfo version-no="5.5.5.QA_v201309112258" plugin-id="com.pat.j2me.J2MEPlugin" plugin-name="Blackberry &amp; J2ME"/>
     <pluginInfo version-no="5.5.0.beta_v201308311937" plugin-id="com.pat.winmobile.WinMobilePlugin" plugin-name="Winmobile Plug-in"/>
     <pluginInfo version-no="5.5.3.QA_v201308291426" plugin-id="com.kony.windows.WindowsPhone8Plugin" plugin-name="Windows Phone 8 Plug-in"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312048" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
-    <pluginInfo version-no="5.5.0.beta_v201308312109" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
-    <pluginInfo version-no="5.5.7.QA_v201309021731" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
+    <pluginInfo version-no="5.5.3.QA_v201308281616" plugin-id="com.kony.windows.Windows8Plugin" plugin-name="Windows 8 Plug-in"/>
+    <pluginInfo version-no="5.5.15.QA_v201309111028" plugin-id="com.pat.android.Activator" plugin-name="Android"/>
+    <pluginInfo version-no="5.5.9.QA_v201309121703" plugin-id="thinclientplugin.Activator" plugin-name="ThinClient"/>
     <pluginInfo version-no="5.5.0.beta_v201308312117" plugin-id="com.kony.windows.WinDesktopPlugin" plugin-name="Windows Desktop Plug-in"/>
     <pluginInfo version-no="5.5.11.QA_v201309101510" plugin-name="SPA"/>
     <pluginInfo version-no="5.5.11.QA_v201309101541" plugin-name="Desktop Web"/>

@@ -22,7 +22,6 @@ function getStockList()
 */
 function stockListCallback(status, stocksList)
 {
-		
 		if(status == 400){
 			 var stockDetailTmp =[];
 			 var pri = "0.00"
