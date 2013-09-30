@@ -66,7 +66,7 @@ function segStockPage()
 	 img= stockResultTable[i]["imgUrl"].replace("&amp;","&");
 		stockDetailTmp.push({
 		     "lblTicker":stockResultTable[i]["symbol"],
-		     "imgStock":"https://www.google.com"+img,
+		     "imgStock": "https://www.google.com"+img,
 		     "lblCompany":stockResultTable[i]["company"],
 		     "lblPrice":stockResultTable[i]["price"],
 		     "lblUSD":stockResultTable[i]["currency"]

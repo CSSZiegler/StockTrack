@@ -7592,7 +7592,7 @@
                         </sizePercent>
                         <skinId>Skin Defaults</skinId>
                         <focusSkinId>Skin Defaults</focusSkinId>
-                        <referenceWidth>1000</referenceWidth>
+                        <referenceWidth>600</referenceWidth>
                         <referenceHeight>300</referenceHeight>
                         <localeId>None</localeId>
                         <visible>true</visible>
